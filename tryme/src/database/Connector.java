@@ -6,8 +6,8 @@ import java.sql.DriverManager;
 public class Connector {
     static  Connection  connection;
     final static String DB_URL_LOCAL = "jdbc:postgresql://localhost:9999/studs";
-    final static String DB_USER = "s291834";
-    final static String DB_PASS = "myy289";
+//     final static String DB_USER = "your_Isu_username -> sxxxxx";
+//     final static String DB_PASS = "your_Isu_password";
 
     public static Connection connectToDp(){
         try {
